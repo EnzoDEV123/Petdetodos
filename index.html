@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet de Todos - Links Úteis</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #e0f2f1 0%, #ffffff 100%);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
+            padding: 40px 20px;
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .logo-placeholder {
+            width: 120px;
+            height: 120px;
+            background-color: #00796b; /* Cor principal Pet de Todos */
+            border-radius: 50%;
+            margin: 0 auto 15px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-weight: bold;
+            font-size: 14px;
+            border: 4px solid #fff;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+        h1 { font-size: 22px; color: #333; margin-bottom: 5px; }
+        p { color: #666; font-size: 14px; margin-bottom: 20px; }
+
+        .container {
+            width: 100%;
+            max-width: 400px;
+        }
+        .link-card {
+            display: block;
+            width: 100%;
+            background: #ffffff;
+            color: #00796b;
+            text-decoration: none;
+            text-align: center;
+            padding: 18px;
+            margin-bottom: 15px;
+            border-radius: 50px; /* Estilo pílula clássico do Linktree */
+            font-weight: 600;
+            border: 2px solid #00796b;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+        }
+        .link-card:hover {
+            background-color: #00796b;
+            color: #fff;
+            transform: translateY(-3px);
+        }
+        /* Destaque para os consultores (WhatsApp) */
+        .btn-whatsapp {
+            background-color: #25d366;
+            border-color: #25d366;
+            color: white;
+        }
+        .btn-whatsapp:hover {
+            background-color: #128c7e;
+            border-color: #128c7e;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <div class="logo-placeholder">PET DE TODOS</div>
+        <h1>Pet de Todos</h1>
+        <p>Cuidado e carinho para o seu pet 🐾</p>
+    </div>
+
+    <div class="container">
+        <a href="https://petdetodos.com.br/" target="_blank" class="link-card">
+            🌐 Visite Nosso Site
+        </a>
+
+        <a href="https://wa.me/5515996972011?text=Olá Davi, vim pelo link da bio!" target="_blank" class="link-card btn-whatsapp">
+            📱 Consultor: Enzo
+        </a>
+
+        <a href="https://wa.me/5515991729405?text=Olá Enzo, vim pelo link da bio!" target="_blank" class="link-card btn-whatsapp">
+            📱 Consultor: Davi
+        </a>
+
+        <a href="https://maps.app.goo.gl/hQD76ngK952jXUSo8" target="_blank" class="link-card">
+            📍 Nossa Localização
+        </a>
+    </div>
+
+</body>
+</html>
