@@ -23,6 +23,8 @@
             text-align: center;
             margin-bottom: 30px;
         }
+
+        /* LOGO REAL */
         .logo-img {
             width: 120px;
             height: 120px;
@@ -32,6 +34,7 @@
             box-shadow: 0 4px 10px rgba(0,0,0,0.1);
             margin-bottom: 15px;
         }
+
         h1 { font-size: 22px; color: #333; margin-bottom: 5px; }
         p { color: #666; font-size: 14px; margin-bottom: 20px; }
 
@@ -42,12 +45,13 @@
         .link-card {
             display: flex;
             align-items: center;
-            gap: 12px;
+            justify-content: center;
+            gap: 10px;
             width: 100%;
             background: #ffffff;
             color: #00796b;
             text-decoration: none;
-            padding: 16px;
+            padding: 18px;
             margin-bottom: 15px;
             border-radius: 50px;
             font-weight: 600;
@@ -60,25 +64,27 @@
             color: #fff;
             transform: translateY(-3px);
         }
-        .link-card img {
-            width: 24px;
-            height: 24px;
+
+        .link-card svg {
+            width: 22px;
+            height: 22px;
         }
+
         .btn-whatsapp {
-            border-color: #25d366;
             background-color: #25d366;
+            border-color: #25d366;
             color: white;
         }
         .btn-whatsapp:hover {
-            border-color: #128c7e;
             background-color: #128c7e;
+            border-color: #128c7e;
         }
     </style>
 </head>
 <body>
 
     <div class="header">
-        <!-- Logo Pet de Todos -->
+        <!-- SUA LOGO AQUI -->
         <img src="logo-pet.png" alt="Logo Pet de Todos" class="logo-img">
         <h1>Pet de Todos</h1>
         <p>Cuidado e carinho para o seu pet 🐾</p>
@@ -87,22 +93,27 @@
     <div class="container">
 
         <a href="https://petdetodos.com.br/" target="_blank" class="link-card">
-            <img src="logo-pet.png" alt="Site Pet de Todos">
-            <span>Visite Nosso Site</span>
+            🌐 <span>Visite Nosso Site</span>
         </a>
 
         <a href="https://wa.me/5515996972011?text=Olá Enzo vim pelo link da bio!" target="_blank" class="link-card btn-whatsapp">
-            <img src="logo-whatsapp.png" alt="WhatsApp">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24">
+                <path d="M20.52 3.48A11.91 11.91 0 0 0 12.05 0C5.4 0 .05 5.35.05 12c0 2.11.55 4.17 1.6 5.99L0 24l6.17-1.62A11.94 11.94 0 0 0 12.05 24c6.65 0 12-5.35 12-12 0-3.2-1.25-6.22-3.53-8.52z"/>
+            </svg>
             <span>Consultor: Enzo</span>
         </a>
 
         <a href="https://wa.me/5515991729405?text=Olá Davi, vim pelo link da bio!" target="_blank" class="link-card btn-whatsapp">
-            <img src="logo-whatsapp.png" alt="WhatsApp">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24">
+                <path d="M20.52 3.48A11.91 11.91 0 0 0 12.05 0C5.4 0 .05 5.35.05 12c0 2.11.55 4.17 1.6 5.99L0 24l6.17-1.62A11.94 11.94 0 0 0 12.05 24c6.65 0 12-5.35 12-12 0-3.2-1.25-6.22-3.53-8.52z"/>
+            </svg>
             <span>Consultor: Davi</span>
         </a>
 
         <a href="https://maps.app.goo.gl/hQD76ngK952jXUSo8" target="_blank" class="link-card">
-            <img src="logo-maps.png" alt="Localização">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="#EA4335" viewBox="0 0 24 24">
+                <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5A2.5 2.5 0 1 1 12 6a2.5 2.5 0 0 1 0 5.5z"/>
+            </svg>
             <span>Nossa Localização</span>
         </a>
 
